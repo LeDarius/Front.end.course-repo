@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+body{
+  /*
+  background-color: red;
+  background-image: url('cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position:static;
+  border:1px solid #a50a0a;
+  background-color:rgba(0, 184, 255, 0.76);
+  position: absolute;
+    position: fixed;
+    position: relative;
+  left: 80px;
+  top: 100px;
+    
+  */
+}
+.box{
+    /* height: 500px;
+            width: 500px;
+            border: 1px solid red;
+            border-style: solid dotted;
+            border-width: 10px 5px 15px 20px;
+            border-color: azure red blue green;
+            box-shadow: 20px 20px 10px red;
+            border-radius: 25px 5px 50px 100px;
+            border-bottom-color: blueviolet;
+            border-bottom: 1px solid black;
+            border-image-source: url('background.jpg');
+            border-image-width: 30px;
+            border-image-outset: 10px;
+            border-image-repeat: stretch;
+                background: linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -webkit-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -o-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -moz-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+        }
+    */
+}
+#header{
+    /*
+      border-bottom:solid blue 2px;
+  border:dashed black 2px;
+  outline: yellow solid 5px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+  */
+}
+.container{
+    width: 80%;
+    border: solid;
+    margin:auto;
+    text-align: center;
+    
+}
+.container2{
+    border:10px solid blue;
+    background-color: green;
+    height:200px;
+    width:200px;
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    
+}
+/*
+.lHeight {
+  line-height: 10px;
+  letter-spacing: 13px;
+  text-shadow: 0 0 13px black;
+  color: black;
+font-family: 'Reenie Beanie', cursive;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px black;
+float:left
+max-width:100%;
+}
+*/
+.hideme{
+  /*display:none;*/
+  visibility: hidden;
+}
+
+nav div{
+  background-color:red;
+  display: inline-block;
+}
+.box{
+    margin:auto;
+    width: 1004px;
+}
+.one,.two{
+    width:500px;
+    height: 200px;
+    display:inline-block;
+}
+.one{
+    background-color:blue;
+}
+.two{
+    background-color:red;
+}
